@@ -1,0 +1,20 @@
+.header__lang-items {
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  text-align: right;
+  color: white;
+  list-style: none;
+}
+
+.header__lang-items:first-of-type {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-items {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
