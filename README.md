@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-## Ссылка на [проект](https://github.com/ShalevskayaTanya/russian-travel.git)
+## Ссылка на [проект](https://shalevskayatanya.github.io/russian-travel/)
 
 ### В данной работе мы учились адаптивной верстки, а также работе в Figma.
 
