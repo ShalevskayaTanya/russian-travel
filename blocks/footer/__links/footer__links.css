@@ -3,18 +3,22 @@
   margin: 92px 0 24px 0;
   padding: 0;
   list-style: none;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-top: 88px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .footer__links:first-of-type {
+    margin-top: 64px;
   }
 }
 
-.footer__links li {
-  margin-right: 18px;
-}
 
-.footer__link li:last-of-type {
-  margin-right: 0;
-}
